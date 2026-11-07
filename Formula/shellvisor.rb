@@ -9,28 +9,28 @@
 class Shellvisor < Formula
   desc "Multi-pane terminal workspace: your real shell plus files, system, data flow and coding agents"
   homepage "https://github.com/avmg0/shellvisor"
-  version "1.0.5"
+  version "1.0.6"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
       url "https://github.com/avmg0/shellvisor/releases/download/v#{version}/shellvisor-v#{version}-aarch64-apple-darwin.tar.gz"
-      sha256 "245ff09205b7f421b3b8a17eca4531b877b214ae1a96b3fdbb24d7689ebc4de8"
+      sha256 "666223aba44f415c1d1e0cdce714a457d2751b226781c0fd4b484f9bce818e31"
     end
     on_intel do
       url "https://github.com/avmg0/shellvisor/releases/download/v#{version}/shellvisor-v#{version}-x86_64-apple-darwin.tar.gz"
-      sha256 "ff75cad4820880840443db88a5d228b794485884895135e122fcf04ad2298ddc"
+      sha256 "7b3bdcab522b96031a861929f9c1bd9d2094d4b264696a8b23872034bbb1065e"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/avmg0/shellvisor/releases/download/v#{version}/shellvisor-v#{version}-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "e6ed3f93626cfebe98db04b8a51dc103f3a1f6fe271816d511c491f2419f3763"
+      sha256 "7657abbcbc75dcfedcbcbd808dee20ccd4854728cd33c5ba30fedab6de0cd167"
     end
     on_intel do
       url "https://github.com/avmg0/shellvisor/releases/download/v#{version}/shellvisor-v#{version}-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "8e89a5faf6bf18cdcfbfe1ee7e53080363cdb8882cd4f8583016f35caa1ab75a"
+      sha256 "bc6d5aa0c0f352d5fafa5a03e500630612a6699b07c6549a0299736f7c6a556a"
     end
   end
 
